@@ -1,0 +1,20 @@
+{
+    "Author": "Nathan McNulty",
+    "ContentSize": 9682,
+    "ContentUrl": "https://raw.githubusercontent.com/nathanmcnulty/set-mailbox-auditing-policies/refs/heads/main/Set-MailboxAuditing.ps1",
+    "DownloadCount": 123456,
+    "Id": "set-mailbox-auditing-policies",
+    "IsFederated": false,
+    "IsWorkflow": false,
+    "Popularity": 99,
+    "RaterCount": 5,
+    "Rating": 5.0,
+    "ReleaseDate": "2025-3-1T00:00:00",
+    "RunbookKind": 5,
+    "RunbookKindString": "PowerShell",
+    "Summary": "Ensure all auditable events are enabled on mailboxes, such as MailItemsAccessed, SearchQueryInitiated, and PreservedMailItemProactively",
+    "Title": "Set Mailbox Auditing Policies",
+    "UpdatedDate": "2025-2-22T00:00:00",
+    "Url": "https://github.com/nathanmcnulty/set-mailbox-auditing-policies",
+    "UserTags": "Powershell, Azure Automation"
+}
