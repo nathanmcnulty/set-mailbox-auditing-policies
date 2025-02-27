@@ -12,7 +12,7 @@
 .NOTES 
     Author: Nathan McNulty 
     Details: https://nathanmcnulty.com/blog/2023/01/azure-automation-advanced-auditing/
-    Last Updated: 02/21/2025  
+    Last Updated: 02/26/2025  
 #> 
 
 $tenantName = "yourdomain.onmicrosoft.com"
@@ -58,7 +58,7 @@ Note: May need Global Admin to consent to Graph PowerShell scopes once, but shou
 Install-Module Microsoft.Graph -Scope CurrentUser
 Install-Module ExchangeOnlineManagement -Scope CurrentUser
 
-# 2) Connect to Graph, consent so we can assign API permissions to the Managed Identity, and get IDs for Managed Identity
+# 2) Connect to Graph, consent so we can assign API permissions to the Managed Identity, and get IDs for Managed Identity (Note: Requires Global Admin to consent once)
 
 Connect-MgGraph -Scopes AppRoleAssignment.ReadWrite.All,Application.Read.All
 
